@@ -1,0 +1,20 @@
+<!-- Header -->
+<div class="header">
+  <h1>Creative Work</h1>
+  <p>\Place Holder\</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row">
+  <div class="column" *ngFor="let product of products; index as productId">
+
+    <a mat-list-item role="navigation" [routerLink]="['/products', productId]">
+      <img matLine src="./assets/{{product.picture}}" style="width:100%" />
+    </a>
+  </div>
+</div>
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

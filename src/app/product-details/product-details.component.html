@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Product Details</h1>
+  <div *ngIf="product">
+    <div class="row">
+      <div class="col-6">
+        <div class="sticky">
+          <h3>{{ product.name }}</h3>
+          <img class="picleft" src="./assets/{{product.picture}}" width="100%" />
+          <span>
+            <button mat-raised-button color="primary" (click)="addToCart(product)">
+              Add to Cart
+            </button>
+          </span>
+        </div>
+      </div>
+      <div class="col-6">
+
+        <p>{{ product.description }}</p>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,23 @@
+.picleft{
+  align-items:flex-start;
+  max-width:30vw;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  padding: 0 50px;
+ 
+}
+  .column p {
+    font-size: 20px;
+  }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}

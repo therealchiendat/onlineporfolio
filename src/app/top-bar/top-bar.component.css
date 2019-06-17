@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+}
+
+.whiteicons {
+  #color: white;
+  padding: 0 25px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+div {
+  width: 100%;
+  height: 68px;
+  background-color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+}
+
+  div h1 {
+    #color: white;
+    margin: 0;
+  }
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
